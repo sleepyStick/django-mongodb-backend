@@ -1,7 +1,7 @@
 {
   "components": [
     {
-      "bom-ref": "Django==6.1",
+      "bom-ref": "Django==6.1.1",
       "description": "A high-level Python web framework that encourages rapid development and clean, pragmatic design.",
       "externalReferences": [
         {
@@ -43,12 +43,12 @@
         }
       ],
       "name": "Django",
-      "purl": "pkg:pypi/django@6.1",
+      "purl": "pkg:pypi/django@6.1.1",
       "type": "library",
-      "version": "6.1"
+      "version": "6.1.1"
     },
     {
-      "bom-ref": "anyio==4.14.2",
+      "bom-ref": "anyio==4.15.1",
       "description": "High-level concurrency and networking framework on top of asyncio or Trio",
       "externalReferences": [
         {
@@ -80,9 +80,9 @@
         }
       ],
       "name": "anyio",
-      "purl": "pkg:pypi/anyio@4.14.2",
+      "purl": "pkg:pypi/anyio@4.15.1",
       "type": "library",
-      "version": "4.14.2"
+      "version": "4.15.1"
     },
     {
       "bom-ref": "asgiref==3.12.1",
@@ -127,7 +127,7 @@
       "version": "3.12.1"
     },
     {
-      "bom-ref": "boto3==1.43.69",
+      "bom-ref": "boto3==1.43.95",
       "description": "The AWS SDK for Python",
       "externalReferences": [
         {
@@ -154,12 +154,12 @@
         }
       ],
       "name": "boto3",
-      "purl": "pkg:pypi/boto3@1.43.69",
+      "purl": "pkg:pypi/boto3@1.43.95",
       "type": "library",
-      "version": "1.43.69"
+      "version": "1.43.95"
     },
     {
-      "bom-ref": "botocore==1.43.69",
+      "bom-ref": "botocore==1.43.95",
       "description": "Low-level, data-driven core of boto 3.",
       "externalReferences": [
         {
@@ -182,9 +182,9 @@
           "value": "crt"
         }
       ],
-      "purl": "pkg:pypi/botocore@1.43.69",
+      "purl": "pkg:pypi/botocore@1.43.95",
       "type": "library",
-      "version": "1.43.69"
+      "version": "1.43.95"
     },
     {
       "bom-ref": "certifi==2026.7.22",
@@ -266,7 +266,7 @@
       "version": "2.1.1"
     },
     {
-      "bom-ref": "cryptography==50.0.0",
+      "bom-ref": "cryptography==50.0.1",
       "description": "cryptography is a package which provides cryptographic recipes and primitives to Python developers.",
       "externalReferences": [
         {
@@ -301,12 +301,12 @@
         }
       ],
       "name": "cryptography",
-      "purl": "pkg:pypi/cryptography@50.0.0",
+      "purl": "pkg:pypi/cryptography@50.0.1",
       "type": "library",
-      "version": "50.0.0"
+      "version": "50.0.1"
     },
     {
-      "bom-ref": "django-mongodb-backend==6.1.0.dev0",
+      "bom-ref": "django-mongodb-backend==6.1.1.dev0",
       "description": "Django MongoDB Backend",
       "externalReferences": [
         {
@@ -344,8 +344,8 @@
       ],
       "name": "django-mongodb-backend",
       "type": "library",
-      "version": "6.1.0.dev0",
-      "purl": "pkg:pypi/django-mongodb-backend@6.1.0.dev0"
+      "version": "6.1.1.dev0",
+      "purl": "pkg:pypi/django-mongodb-backend@6.1.1.dev0"
     },
     {
       "bom-ref": "dnspython==2.8.0",
@@ -481,7 +481,7 @@
       "version": "0.28.1"
     },
     {
-      "bom-ref": "idna==3.18",
+      "bom-ref": "idna==3.19",
       "description": "Internationalized Domain Names in Applications (IDNA)",
       "externalReferences": [
         {
@@ -508,9 +508,9 @@
         }
       ],
       "name": "idna",
-      "purl": "pkg:pypi/idna@3.18",
+      "purl": "pkg:pypi/idna@3.19",
       "type": "library",
-      "version": "3.18"
+      "version": "3.19"
     },
     {
       "bom-ref": "jmespath==1.1.0",
@@ -582,7 +582,7 @@
       "version": "3.0"
     },
     {
-      "bom-ref": "pymongo==4.17.0",
+      "bom-ref": "pymongo==4.18.1",
       "description": "PyMongo - the Official MongoDB Python driver",
       "externalReferences": [
         {
@@ -624,9 +624,9 @@
           "value": "encryption"
         }
       ],
-      "purl": "pkg:pypi/pymongo@4.17.0",
+      "purl": "pkg:pypi/pymongo@4.18.1",
       "type": "library",
-      "version": "4.17.0"
+      "version": "4.18.1"
     },
     {
       "bom-ref": "pymongo-auth-aws==1.3.0",
@@ -651,7 +651,7 @@
       "version": "1.3.0"
     },
     {
-      "bom-ref": "pymongocrypt==1.18.1",
+      "bom-ref": "pymongocrypt==1.19.0",
       "description": "Python bindings for libmongocrypt",
       "externalReferences": [
         {
@@ -668,9 +668,9 @@
         }
       ],
       "name": "pymongocrypt",
-      "purl": "pkg:pypi/pymongocrypt@1.18.1",
+      "purl": "pkg:pypi/pymongocrypt@1.19.0",
       "type": "library",
-      "version": "1.18.1"
+      "version": "1.19.0"
     },
     {
       "bom-ref": "python-dateutil==2.9.0.post0",
@@ -754,7 +754,7 @@
       "version": "1.17.0"
     },
     {
-      "bom-ref": "sqlparse==0.5.5",
+      "bom-ref": "sqlparse==0.6.0",
       "description": "A non-validating SQL parser.",
       "externalReferences": [
         {
@@ -791,12 +791,59 @@
         }
       ],
       "name": "sqlparse",
-      "purl": "pkg:pypi/sqlparse@0.5.5",
+      "purl": "pkg:pypi/sqlparse@0.6.0",
       "type": "library",
-      "version": "0.5.5"
+      "version": "0.6.0"
     },
     {
-      "bom-ref": "urllib3==2.7.0",
+      "bom-ref": "typing_extensions==4.16.0",
+      "description": "Backported and Experimental Type Hints for Python 3.9+",
+      "externalReferences": [
+        {
+          "comment": "from packaging metadata Project-URL: Documentation",
+          "type": "documentation",
+          "url": "https://typing-extensions.readthedocs.io/"
+        },
+        {
+          "comment": "from packaging metadata Project-URL: Bug Tracker",
+          "type": "issue-tracker",
+          "url": "https://github.com/python/typing_extensions/issues"
+        },
+        {
+          "comment": "from packaging metadata Project-URL: Q & A",
+          "type": "other",
+          "url": "https://github.com/python/typing/discussions"
+        },
+        {
+          "comment": "from packaging metadata Project-URL: Changes",
+          "type": "release-notes",
+          "url": "https://github.com/python/typing_extensions/blob/main/CHANGELOG.md"
+        },
+        {
+          "comment": "from packaging metadata Project-URL: Repository",
+          "type": "vcs",
+          "url": "https://github.com/python/typing_extensions"
+        },
+        {
+          "comment": "from packaging metadata Project-URL: Home",
+          "type": "website",
+          "url": "https://github.com/python/typing_extensions"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "PSF-2.0"
+          }
+        }
+      ],
+      "name": "typing_extensions",
+      "purl": "pkg:pypi/typing-extensions@4.16.0",
+      "type": "library",
+      "version": "4.16.0"
+    },
+    {
+      "bom-ref": "urllib3==2.8.0",
       "description": "HTTP library with thread-safe connection pooling, file post, and more.",
       "externalReferences": [
         {
@@ -815,6 +862,11 @@
           "url": "https://github.com/urllib3/urllib3"
         },
         {
+          "comment": "from packaging metadata Project-URL: Security policy",
+          "type": "other",
+          "url": "https://urllib3.readthedocs.io/en/latest/security.html"
+        },
+        {
           "comment": "from packaging metadata Project-URL: Changelog",
           "type": "release-notes",
           "url": "https://github.com/urllib3/urllib3/blob/main/CHANGES.rst"
@@ -828,43 +880,47 @@
         }
       ],
       "name": "urllib3",
-      "purl": "pkg:pypi/urllib3@2.7.0",
+      "purl": "pkg:pypi/urllib3@2.8.0",
       "type": "library",
-      "version": "2.7.0"
+      "version": "2.8.0"
     }
   ],
   "dependencies": [
     {
       "dependsOn": [
         "asgiref==3.12.1",
-        "sqlparse==0.5.5"
+        "sqlparse==0.6.0"
       ],
-      "ref": "Django==6.1"
+      "ref": "Django==6.1.1"
     },
     {
       "dependsOn": [
-        "idna==3.18"
+        "idna==3.19",
+        "typing_extensions==4.16.0"
       ],
-      "ref": "anyio==4.14.2"
+      "ref": "anyio==4.15.1"
     },
     {
+      "dependsOn": [
+        "typing_extensions==4.16.0"
+      ],
       "ref": "asgiref==3.12.1"
     },
     {
       "dependsOn": [
-        "botocore==1.43.69",
+        "botocore==1.43.95",
         "jmespath==1.1.0",
         "s3transfer==0.19.2"
       ],
-      "ref": "boto3==1.43.69"
+      "ref": "boto3==1.43.95"
     },
     {
       "dependsOn": [
         "jmespath==1.1.0",
         "python-dateutil==2.9.0.post0",
-        "urllib3==2.7.0"
+        "urllib3==2.8.0"
       ],
-      "ref": "botocore==1.43.69"
+      "ref": "botocore==1.43.95"
     },
     {
       "ref": "certifi==2026.7.22"
@@ -877,23 +933,24 @@
     },
     {
       "dependsOn": [
-        "cffi==2.1.1"
+        "cffi==2.1.1",
+        "typing_extensions==4.16.0"
       ],
-      "ref": "cryptography==50.0.0"
+      "ref": "cryptography==50.0.1"
     },
     {
       "dependsOn": [
-        "Django==6.1",
-        "pymongo==4.17.0"
+        "Django==6.1.1",
+        "pymongo==4.18.1"
       ],
-      "ref": "django-mongodb-backend==6.1.0.dev0"
+      "ref": "django-mongodb-backend==6.1.1.dev0"
     },
     {
       "dependsOn": [
-        "cryptography==50.0.0",
+        "cryptography==50.0.1",
         "httpcore==1.0.9",
         "httpx==0.28.1",
-        "idna==3.18"
+        "idna==3.19"
       ],
       "ref": "dnspython==2.8.0"
     },
@@ -902,7 +959,7 @@
     },
     {
       "dependsOn": [
-        "anyio==4.14.2",
+        "anyio==4.15.1",
         "certifi==2026.7.22",
         "h11==0.16.0"
       ],
@@ -910,15 +967,15 @@
     },
     {
       "dependsOn": [
-        "anyio==4.14.2",
+        "anyio==4.15.1",
         "certifi==2026.7.22",
         "httpcore==1.0.9",
-        "idna==3.18"
+        "idna==3.19"
       ],
       "ref": "httpx==0.28.1"
     },
     {
-      "ref": "idna==3.18"
+      "ref": "idna==3.19"
     },
     {
       "ref": "jmespath==1.1.0"
@@ -931,32 +988,32 @@
     },
     {
       "dependsOn": [
-        "boto3==1.43.69",
-        "botocore==1.43.69",
+        "boto3==1.43.95",
+        "botocore==1.43.95",
         "dnspython==2.8.0",
-        "pymongo==4.17.0"
+        "pymongo==4.18.1"
       ],
       "ref": "pymongo-auth-aws==1.3.0"
     },
     {
       "dependsOn": [
         "certifi==2026.7.22",
-        "cryptography==50.0.0",
+        "cryptography==50.0.1",
         "dnspython==2.8.0",
         "pymongo-auth-aws==1.3.0",
-        "pymongocrypt==1.18.1"
+        "pymongocrypt==1.19.0"
       ],
-      "ref": "pymongo==4.17.0"
+      "ref": "pymongo==4.18.1"
     },
     {
       "dependsOn": [
         "cffi==2.1.1",
-        "cryptography==50.0.0",
+        "cryptography==50.0.1",
         "httpx==0.28.1",
         "packaging==26.3",
-        "pymongo==4.17.0"
+        "pymongo==4.18.1"
       ],
-      "ref": "pymongocrypt==1.18.1"
+      "ref": "pymongocrypt==1.19.0"
     },
     {
       "dependsOn": [
@@ -966,7 +1023,7 @@
     },
     {
       "dependsOn": [
-        "botocore==1.43.69"
+        "botocore==1.43.95"
       ],
       "ref": "s3transfer==0.19.2"
     },
@@ -974,14 +1031,17 @@
       "ref": "six==1.17.0"
     },
     {
-      "ref": "sqlparse==0.5.5"
+      "ref": "sqlparse==0.6.0"
     },
     {
-      "ref": "urllib3==2.7.0"
+      "ref": "typing_extensions==4.16.0"
+    },
+    {
+      "ref": "urllib3==2.8.0"
     }
   ],
   "metadata": {
-    "timestamp": "2026-08-12T15:19:48.243129+00:00",
+    "timestamp": "2026-09-16T18:00:58.689722+00:00",
     "tools": {
       "components": [
         {
@@ -1078,12 +1138,12 @@
           ],
           "name": "cyclonedx-python-lib",
           "type": "library",
-          "version": "11.11.2"
+          "version": "11.12.0"
         }
       ]
     }
   },
-  "serialNumber": "urn:uuid:7d4e42c2-7c77-40de-9ef2-38e4c3ce3826",
+  "serialNumber": "urn:uuid:e9e13bdb-5c63-4f99-ab9c-502eb708e896",
   "version": 1,
   "$schema": "http://cyclonedx.org/schema/bom-1.5.schema.json",
   "bomFormat": "CycloneDX",
